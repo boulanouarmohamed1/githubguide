@@ -1,0 +1,10 @@
+[project]
+name = "githubguide-backend"
+version = "0.1.0"
+description = "Local-first agentic RAG backend for repository onboarding"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+

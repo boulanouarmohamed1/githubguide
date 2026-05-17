@@ -1,0 +1,24 @@
+# Environment and secrets
+.env
+**/.env
+
+# Python
+.venv/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.pyc
+
+# Node / frontend build
+node_modules/
+.next/
+dist/
+coverage/
+
+# Runtime data (recreated by ingest; see data/README.md)
+data/repos/
+data/logs/
+data/**/*.sqlite3
+data/qdrant/.lock
+data/qdrant/collection/
